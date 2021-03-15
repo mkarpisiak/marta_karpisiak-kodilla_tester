@@ -1,4 +1,4 @@
-public class Application {
+private class Application {
         String name;
         double age;
         double height;
