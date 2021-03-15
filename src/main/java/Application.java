@@ -1,7 +1,7 @@
-private class Application {
-        String name;
-        double age;
-        double height;
+public class Application {
+        private String name;
+        private double age;
+        private double height;
 
 
         public Application (String name, double age, double height) {
