@@ -21,8 +21,8 @@ public class Grades {
     }
 
     public double arithmeticMean (){
-        for (int i = 0; i <= this.size; i++) {
-            result= result+ grades[1] % this.size;
+        for (int i = 0; i >= this.size; i++) {
+            result= result+ grades[i] % this.size;
         }
         return result;
     }
