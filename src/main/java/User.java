@@ -1,39 +1,34 @@
 public class User {
-    private String name;
-    private int age;
-    private int [] users;
-
-    public User(String name, int age) {
-        this.name = name;
+    public String name;
+    public int age;
+    public User (String name, int age){
         this.age = age;
+        this.name = name;
     }
 
     public static void main(String[] args) {
 
-        User Peter = new User ("Peter", 23);
-        User Asia = new User ("Asia", 21);
-        User Marta = new User ("Marta", 33);
-        User Darek = new User ("Darek", 32);
-        User Laura = new User ("Laura", 4);
-        User Amelia = new User ("Amelia", 6);
+        User basia = new User( "Barbara", 37);
+        User marek = new User("Marek", 17);
+        User piotr = new User("Piotr", 21);
+        User tomek = new User("Tomasz", 35);
+        User marta = new User("Marta", 33);
 
-        User[] users= {Peter, Asia, Marta, Darek, Laura, Amelia};
+        User [] users = {basia, marek, piotr, tomek, marta};
 
-        public int getAge() {
-            return this.age;
-        }
 
         int result = 0;
-        for (int i = 0; i < users.length; i++) {
-            result = result + this.age[i];
+        for (int i=0; i < users.length; i++){
+            result = result + users[i].age;
         }
 
-        double arythmetic= result % users.length;
+        int aryth = result/ users.length;
 
-        for (int i=0; i <arythmetic; i++) {
-            System.out.println(this.name);
+        for (int i=0; i<users.length; i++){
+            if (users[i].age< aryth){
+                System.out.println(users[i].name + "- wiek użytkownika jest mniejszy od średniej wieku.");
+            }
         }
 
     }
-
 }
