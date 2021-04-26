@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
+
 public class AskForColor {
 
-        public static String getFirstLetter() {
+        public static String matchFirstLetterToColour() {
         Scanner scanner = new Scanner(System.in);
         while (true) {
-            System.out.println("Enter first letter of colour (G- green, Y-yellow, B- blue, P-pink, W-white:");
+            System.out.println("Gimme first letter of your favourite colour (G- green, Y-yellow, B- blue, P-pink, W-white:");
             String colour = scanner.nextLine().trim();
             switch (colour) {
                 case "G":
@@ -27,7 +28,7 @@ public class AskForColor {
 
     public static void main(String[] args) {
             AskForColor askForColor= new AskForColor();
-            askForColor.getFirstLetter();
+            askForColor.matchFirstLetterToColour();
 
 
     }
