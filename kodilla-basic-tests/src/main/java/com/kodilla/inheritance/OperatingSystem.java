@@ -1,15 +1,14 @@
 package com.kodilla.inheritance;
 
 public abstract class OperatingSystem {
-    public int year;
+    private int year;
 
     public OperatingSystem(int year){
         this.year= year;
     }
 
-    public void Year (int year){
-
-        System.out.println("this system was released in " + year);
+    public int getYear(){
+        return year;
     }
 
     public void turnOn() {
