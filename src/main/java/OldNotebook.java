@@ -1,2 +1,7 @@
-package PACKAGE_NAME;public class oldNotebook {
-}
+//public class OldNotebook {
+//    String weight;
+//
+//    public OldNotebook (String weight) {
+//        this.weight = weight;
+//    }
+//}

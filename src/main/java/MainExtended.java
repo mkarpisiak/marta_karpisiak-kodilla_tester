@@ -7,6 +7,7 @@ public class MainExtended {
         String hobby = "Horseback Riding";
         int howLong = 12;
         String moreAboutHorses = "Dlaczego jeżdżę? Bo to jest fantastyczne i mogę moje hobby wykorzystać jako ćwiczenie tutaj;)";
+
     System.out.println(myName);
     System.out.println(myAge);
     System.out.println(height);
@@ -14,5 +15,6 @@ public class MainExtended {
     System.out.println(hobby);
     System.out.println(howLong);
     System.out.println(moreAboutHorses);
+
     }
 }
