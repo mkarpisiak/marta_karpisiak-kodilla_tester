@@ -2,8 +2,8 @@ package com.kodilla.abstracts.homework;
 
 public class Rectangle extends Shape {
 
-    public Rectangle(){
-        super(6, 4 , 0);
+    public Rectangle(int a, int b, double PI){
+        super ();
     }
 
 

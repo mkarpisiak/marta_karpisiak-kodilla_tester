@@ -3,9 +3,11 @@ package com.kodilla.abstracts.homework;
 public class Circle extends Shape {
 
 
-    public Circle() {
-        super(7, 0, 3.1415);
+    public Circle(int a, int b, double PI) {
+        super();
     }
+
+
 
     @Override
     public void countSurfaceArea() {

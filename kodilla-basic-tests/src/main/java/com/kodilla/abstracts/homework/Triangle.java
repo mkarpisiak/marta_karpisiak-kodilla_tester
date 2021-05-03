@@ -2,8 +2,8 @@ package com.kodilla.abstracts.homework;
 
 public class Triangle extends Shape{
 
-    public Triangle (){
-        super (4 , 10 , 0);
+    public Triangle (int a, int b, double PI){
+        super ();
     }
 
     @Override
