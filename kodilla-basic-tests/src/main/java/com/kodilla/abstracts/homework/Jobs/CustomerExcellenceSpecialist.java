@@ -3,7 +3,19 @@ package com.kodilla.abstracts.homework.Jobs;
 public class CustomerExcellenceSpecialist extends Job {
 
 
-    public CustomerExcellenceSpecialist() {
-        super(4500, "Prowadzi z klientami bezpośrednią komunikacje za pośrednictwem różnych kanałów (telefon, czat, email).");
+    private int salary;
+    private String responsibilities;
+
+    public int getSalary(){
+        return salary;
+    }
+
+    public String getResponsibilities(){
+        return responsibilities;
+    }
+
+    public CustomerExcellenceSpecialist (int salary, String responsibilities){
+        this.salary = salary;
+        this.responsibilities = responsibilities;
     }
 }

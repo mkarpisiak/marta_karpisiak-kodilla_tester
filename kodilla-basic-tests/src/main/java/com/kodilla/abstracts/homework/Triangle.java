@@ -2,13 +2,25 @@ package com.kodilla.abstracts.homework;
 
 public class Triangle extends Shape{
 
-    public Triangle (int a, int b, double PI){
-        super ();
-    }
+        private int a;
+        private int h;
+    public Triangle (int a, int h){
+        this.a = a;
+        this.h = h;
+        }
+
+        public int getA (){
+        return a;
+        }
+
+        public int getH (){
+        return h;
+        }
+
 
     @Override
     public void countSurfaceArea() {
-        int result= ((getA()* getB()/2));
+        int result= ((getA()* getH()/2));
         System.out.println(result + " cm2");
     }
 

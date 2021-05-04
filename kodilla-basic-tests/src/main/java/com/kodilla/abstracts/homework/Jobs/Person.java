@@ -1,16 +1,13 @@
 package com.kodilla.abstracts.homework.Jobs;
 
-
 public class Person {
 
     private String firstName;
     private int age;
-    private String job;
 
-    public Person(String firstName, int age, String job) {
+    public Person (String firstName, int age) {
         this.firstName= firstName;
         this.age= age;
-        this. job= job;
 
     }
 
@@ -22,16 +19,18 @@ public class Person {
         return age;
     }
 
-    public String getJob(){
-        return job;
+
+    public static void main(String[] args) {
+
+     Person dominik = new Person("Dominik", 32);
+     Boss boss = new Boss(100000, "Bossing around!");
+     System.out.println(boss.getResponsibilities());
+
+
     }
 
-    Person dominik = new Person( "Dominik", 32, "CEO");
 
 
-    public void ShowYourResponsibilities (){
-        System.out.println("Hi, my name is " + dominik.firstName +". I'm responsible for:" +  boss.responsibilities);
-    }
 
-
+// salary nie na sztywno
 }

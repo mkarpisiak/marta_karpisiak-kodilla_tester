@@ -2,10 +2,20 @@ package com.kodilla.abstracts.homework.Jobs;
 
 public class Boss extends Job {
 
+    private int salary;
+    private String responsibilities;
 
-    public Boss() {
+    public int getSalary(){
+        return salary;
+    }
 
-        super(100000, "I'm just bossing around");
+    public String getResponsibilities(){
+        return responsibilities;
+    }
+
+    public Boss (int salary, String responsibilities){
+        this.salary = salary;
+        this.responsibilities = responsibilities;
     }
 
 

@@ -1,8 +1,21 @@
 package com.kodilla.abstracts.homework.Jobs;
 
-public class HeadOfGrowth extends Job{
+public class HeadOfGrowth extends Job {
 
-    public HeadOfGrowth() {
-        super(50000, "Rozwój sprzedaży przy optymalizacji kosztów." );
+    private int salary;
+    private String responsibilities;
+
+    public int getSalary(){
+        return salary;
+    }
+
+    public String getResponsibilities(){
+        return responsibilities;
+    }
+
+
+    public HeadOfGrowth(int salary, String responsibilities) {
+        this.salary = salary;
+        this.responsibilities = responsibilities;
     }
 }
