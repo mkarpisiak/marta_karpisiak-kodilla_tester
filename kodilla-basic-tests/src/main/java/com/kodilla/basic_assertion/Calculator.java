@@ -2,7 +2,7 @@ package com.kodilla.basic_assertion;
 
 public class Calculator {
 
-  public int sum (int a, int b){
+    public int sum (int a, int b){
       return a + b;
   }
 
@@ -12,6 +12,5 @@ public class Calculator {
 
     public int twoSquared ( int a){
       return a * a;
-
     }
 }

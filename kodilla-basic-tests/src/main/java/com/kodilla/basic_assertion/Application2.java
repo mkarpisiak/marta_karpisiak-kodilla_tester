@@ -4,6 +4,7 @@ package com.kodilla.basic_assertion;
 public class Application2 {
 
     public static void main(String[] args) {
+
         Calculator calculator = new Calculator();
         int a = 5;
         int b = 8;
