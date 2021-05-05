@@ -13,6 +13,10 @@ public abstract class Job {
     public String getResponsibilities(){
         return responsibilities;
     }
+    public Job (String responsibilities, int salary){
+        this.responsibilities = responsibilities;
+        this.salary = salary;
+    }
 
 
 }

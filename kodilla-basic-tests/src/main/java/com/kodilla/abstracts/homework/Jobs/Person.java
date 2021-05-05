@@ -23,14 +23,15 @@ public class Person {
     public static void main(String[] args) {
 
      Person dominik = new Person("Dominik", 32);
-     Boss boss = new Boss(100000, "Bossing around!");
-     System.out.println(boss.getResponsibilities());
+     Boss boss = new Boss("Bossing around!", 10000000);
+
+     System.out.println("Hi, my name is " + dominik.firstName + ". I'm responsible for: " + boss.getResponsibilities() );
+
+
 
 
     }
 
 
 
-
-// salary nie na sztywno
 }
