@@ -26,10 +26,26 @@ public class CalculatorTestSuite {
     }
 
     @Test
-    public void testTwoSquared (){
+    public void testTwoSquaredWithPositiveNumber (){
         Calculator calculator = new Calculator();
         int a = 6;
         int twoSquaredResult = calculator.twoSquared(a);
         assertEquals(36, twoSquaredResult);
+    }
+
+    @Test
+    public void testTwoSquaredWithNegativeNumber (){
+        Calculator calculator = new Calculator();
+        int a = -6;
+        int twoSquaredResult = calculator.twoSquared(a);
+        assertEquals(36, twoSquaredResult);
+    }
+
+    @Test
+    public void testTwoSquaredWithZero (){
+        Calculator calculator = new Calculator();
+        int a = 0;
+        int twoSquaredResult = calculator.twoSquared(a);
+        assertEquals(0, twoSquaredResult);
     }
 }
