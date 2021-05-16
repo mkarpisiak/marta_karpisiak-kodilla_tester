@@ -1,4 +1,5 @@
-package com.kodilla.abstracts.homework.Jobs;
+package com.kodilla.abstracts.homework.Job;
+
 
 public class Person {
 
@@ -22,16 +23,11 @@ public class Person {
 
     public static void main(String[] args) {
 
-     Person dominik = new Person("Dominik", 32);
-     Boss boss = new Boss("Bossing around!", 10000000);
+        Person dominik = new Person("Dominik", 32);
+        Boss boss = new Boss("Bossing around!", 10000000);
 
-     System.out.println("Hi, my name is " + dominik.firstName + ". I'm responsible for: " + boss.getResponsibilities() );
-
-
-
+        System.out.println("Hi, my name is " + dominik.getFirstName() + ". I'm responsible for: " + boss.getResponsibilities() );
 
     }
-
-
-
 }
+
