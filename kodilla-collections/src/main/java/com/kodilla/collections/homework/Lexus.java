@@ -15,9 +15,9 @@ public class Lexus implements Car{
     }
 
     @Override
-    public void increaseSpeed() {
+    public int increaseSpeed() {
         speed = speed + 30;
-
+        return speed;
     }
 
     @Override
