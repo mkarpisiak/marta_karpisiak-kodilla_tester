@@ -1,7 +1,5 @@
 package com.kodilla.collections.adv.maps.homework;
 
-
-
 import java.util.HashMap;
 import java.util.Map;
 

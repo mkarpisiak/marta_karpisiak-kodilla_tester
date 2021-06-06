@@ -35,5 +35,4 @@ public class Principal {
     public String getLastname() {
         return lastname;
     }
-
 }

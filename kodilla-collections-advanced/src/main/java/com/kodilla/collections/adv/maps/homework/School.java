@@ -20,7 +20,6 @@ public class School {
         return sum;
     }
 
-
     @Override
     public String toString() {
         return "School: " + numberOfStudents.toString();
